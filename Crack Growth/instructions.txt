@@ -1,0 +1,20 @@
+%-- 16/12/08 12:56 --%
+
+% To run manually use
+
+setuprealall
+data = CrackFront8(Points, PointsSize, Timepoints, 1)
+Points = data{1}; 
+growthvector = data{2};
+growth2d = data{3};
+length2d = data{4};
+growth2dnorm = data{5};
+longest = data{6};
+fastest = data{7};
+fastestperstep = data{8};
+meangrowth = data{9};
+meanlength = data{10};
+
+% or run
+
+Main
